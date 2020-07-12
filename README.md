@@ -8,6 +8,7 @@ Documentation for the framework can be found on the [Lumen website](https://lume
 + Lumen 6.x
 + Laravel Mix
 + Vue
++ Vuex
 + Vue Router
 + Vue Meta
 
