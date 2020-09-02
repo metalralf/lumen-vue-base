@@ -23,11 +23,8 @@ const router = new VueRouter({
         {path: '/bar', component: Bar}
     ]
 });
-*/
 
-import vuetify from './vuetify'; // https://github.com/Nothing-Works/vuetifyjs-mix-extension/blob/master/laravel.md
-
-/*new Vue({
+new Vue({
     router
 }).$mount('#app');*/
 
