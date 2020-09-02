@@ -11,6 +11,7 @@ Documentation for the framework can be found on the [Lumen website](https://lume
 + Vuex
 + Vue Router
 + Vue Meta
++ Vuetify
 
 ## Steps after pull
 

@@ -1,5 +1,5 @@
 import Vue from 'vue'; // https://dzone.com/articles/how-to-make-vuejs-website-seo-friendly
-import VueRouter from 'vue-router';
+/*import VueRouter from 'vue-router';
 import VueMeta from 'vue-meta'; // https://github.com/nuxt/vue-meta
 import Vuex from 'vuex';
 
@@ -21,7 +21,14 @@ const router = new VueRouter({
         {path: '/bar', component: Bar}
     ]
 });
+*/
+
+import vuetify from './vuetify'; // https://github.com/Nothing-Works/vuetifyjs-mix-extension/blob/master/laravel.md
+
+/*new Vue({
+    router
+}).$mount('#app');*/
 
 new Vue({
-    router
+    vuetify
 }).$mount('#app');
