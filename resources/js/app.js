@@ -28,6 +28,8 @@ new Vue({
     router
 }).$mount('#app');*/
 
+// add components: https://vuejs.org/v2/guide/components-registration.html
+
 new Vue({
     vuetify
 }).$mount('#app');
