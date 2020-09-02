@@ -1,8 +1,10 @@
 import Vue from 'vue'; // https://dzone.com/articles/how-to-make-vuejs-website-seo-friendly
-import VueRouter from 'vue-router';
+/*import VueRouter from 'vue-router';
 import VueMeta from 'vue-meta'; // https://github.com/nuxt/vue-meta
 import Vuex from 'vuex';
-
+*/
+import vuetify from './vuetify'; // https://github.com/Nothing-Works/vuetifyjs-mix-extension/blob/master/laravel.md
+/*
 Vue.use(Vuex); // https://vuex.vuejs.org/guide/
 Vue.use(VueRouter);
 Vue.use(VueMeta, {
@@ -24,4 +26,8 @@ const router = new VueRouter({
 
 new Vue({
     router
+}).$mount('#app');*/
+
+new Vue({
+    vuetify
 }).$mount('#app');

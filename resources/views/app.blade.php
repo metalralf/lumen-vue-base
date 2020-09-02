@@ -8,15 +8,56 @@
     <link rel="stylesheet" href="css/app.css" />
 </head>
 <body>
-<h1>My App</h1>
 <div id="app">
-    <h1>Hello App!</h1>
-    <p>
-        <router-link to="/foo"><button>Go to Foo</button></router-link>
-        <router-link to="/bar"><button>Go to Bar</button></router-link>
-    </p>
-
-    <router-view></router-view>
+    <v-app>
+      <v-main>
+        <v-container>Hello world</v-container>
+        <v-row align="center">
+            <v-col class="text-center" cols="12" sm="4">
+            <div class="my-2">
+                <v-btn small>Normal</v-btn>
+            </div>
+            <div class="my-2">
+                <v-btn small color="primary">Primary</v-btn>
+            </div>
+            <div class="my-2">
+                <v-btn small color="error">Error</v-btn>
+            </div>
+            <div class="my-2">
+                <v-btn small disabled>Disabled</v-btn>
+            </div>
+            </v-col>
+            <v-col class="text-center" cols="12" sm="4">
+            <div class="my-2">
+                <v-btn>Normal</v-btn>
+            </div>
+            <div class="my-2">
+                <v-btn color="primary">Primary</v-btn>
+            </div>
+            <div class="my-2">
+                <v-btn color="error">Error</v-btn>
+            </div>
+            <div class="my-2">
+                <v-btn disabled>Disabled</v-btn>
+            </div>
+            </v-col>
+            <v-col class="text-center" cols="12" sm="4">
+            <div class="my-2">
+                <v-btn large>Normal</v-btn>
+            </div>
+            <div class="my-2">
+                <v-btn large color="primary">Primary</v-btn>
+            </div>
+            <div class="my-2">
+                <v-btn large color="error">Error</v-btn>
+            </div>
+            <div class="my-2">
+                <v-btn large disabled>Disabled</v-btn>
+            </div>
+            </v-col>
+        </v-row>
+      </v-main>
+    </v-app>
 </div>
 <script src="js/app.js"></script>
 </body>
